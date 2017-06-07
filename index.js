@@ -38,6 +38,6 @@ app.use(function (err, req, res, next) {
 	console.log(err);
 });
 
-app.listen(5000, function() {
+app.listen(app.get('port'), function() {
 	console.log("Listening on port " + app.get('port'));
 });
