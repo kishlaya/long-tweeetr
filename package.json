@@ -1,0 +1,26 @@
+{
+  "name": "long-tweeetr",
+  "version": "1.0.0",
+  "description": "Web app to help you post long tweets directly",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kishlaya/long-tweeetr.git"
+  },
+  "keywords": [
+    "twitter",
+    "long",
+    "tweet"
+  ],
+  "author": "Kishlaya Jaiswal",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-twitter-api": "^1.8.0",
+    "pug": "^2.0.0-rc.2"
+  }
+}
